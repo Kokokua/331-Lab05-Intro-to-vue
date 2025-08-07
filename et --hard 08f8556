@@ -1,0 +1,29 @@
+[33mbf3eb10[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{0}: reset: moving to bf3eb10
+[33m1010b2e[m HEAD@{1}: reset: moving to 1010b2ebab94de450ec6a0eed2bbd7e1d0346360
+[33m08f8556[m HEAD@{2}: rebase (abort): returning to refs/heads/main
+[33mf2569b5[m HEAD@{3}: rebase (pick): before 8.7
+[33mdf73cff[m HEAD@{4}: rebase (start): checkout df73cffb9dacb708626ff0380f82dc46f06b7b46
+[33m08f8556[m HEAD@{5}: commit: 8.7.0
+[33m9ec758a[m HEAD@{6}: commit: before 8.7
+[33m1010b2e[m HEAD@{7}: commit: before 8.7
+[33mdf73cff[m HEAD@{8}: checkout: moving from 7cfd6854750e3c3dc777d0fced67d9d3b42ef634 to main
+[33m7cfd685[m HEAD@{9}: checkout: moving from main to 7cfd6854750e3c3dc777d0fced67d9d3b42ef634
+[33mdf73cff[m HEAD@{10}: reset: moving to HEAD
+[33mdf73cff[m HEAD@{11}: reset: moving to HEAD
+[33mdf73cff[m HEAD@{12}: checkout: moving from 7cfd6854750e3c3dc777d0fced67d9d3b42ef634 to main
+[33m7cfd685[m HEAD@{13}: checkout: moving from main to 7cfd6854750e3c3dc777d0fced67d9d3b42ef634
+[33mdf73cff[m HEAD@{14}: reset: moving to HEAD
+[33mdf73cff[m HEAD@{15}: commit: 8.4
+[33m7cfd685[m HEAD@{16}: commit: 7
+[33md540a77[m HEAD@{17}: rebase (finish): returning to refs/heads/main
+[33md540a77[m HEAD@{18}: rebase (pick): 4.6
+[33m60f3690[m HEAD@{19}: rebase (reword): 3.2
+[33mbf3eb10[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{20}: rebase: fast-forward
+[33m0aab8b2[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{21}: rebase (start): checkout 0aab8b2358db81ad4efb505399ed317ae5df24de
+[33m83922f9[m HEAD@{22}: checkout: moving from bf3eb10dde95690bdfba2e8f4c4a363a3275b61f to main
+[33mbf3eb10[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{23}: checkout: moving from main to bf3eb10dde95690bdfba2e8f4c4a363a3275b61f
+[33m83922f9[m HEAD@{24}: commit: 4.6
+[33mbf3eb10[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{25}: commit: 2
+[33m0aab8b2[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{26}: Branch: renamed refs/heads/main to refs/heads/main
+[33m0aab8b2[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{28}: Branch: renamed refs/heads/master to refs/heads/main
+[33m0aab8b2[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{30}: commit (initial): Initial commit - pushing Vue project
