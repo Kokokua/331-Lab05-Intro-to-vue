@@ -67,9 +67,10 @@ onMounted(() => {
       <EventCard :event="event" />
     </div>
   </div>
-  <div class="pagination">
+  <div class="flex justify-center items-center gap-5 mt-5">
     <RouterLink
       id="page-prev"
+      class="no-underline text-gray-700 px-4 py-2 border border-gray-700 rounded transition-colors duration-300 hover:bg-gray-700 hover:text-white"
       :to="{ name: 'event-list-view', query: { page: page - 1, pageSize: pageSize } }"
       rel="prev"
       v-if="page !== 1"
@@ -78,6 +79,7 @@ onMounted(() => {
     </RouterLink>
     <RouterLink
       id="page-next"
+      class="no-underline text-gray-700 px-4 py-2 border border-gray-700 rounded transition-colors duration-300 hover:bg-gray-700 hover:text-white"
       :to="{ name: 'event-list-view', query: { page: page + 1, pageSize: pageSize } }"
       rel="next"
       v-if="hasNexPage"
@@ -88,24 +90,6 @@ onMounted(() => {
 </template>
 
 <style scoped>
-.pagination {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  margin-top: 20px;
-}
-.pagination a {
-  text-decoration: none;
-  color: #2c3e50;
-  padding: 8px 16px;
-  border: 1px solid #2c3e50;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-.pagination a:hover {
-  background-color: #2c3e50;
-  color: white;
-}
+/* All CSS has been converted to Tailwind classes */
 </style>
 

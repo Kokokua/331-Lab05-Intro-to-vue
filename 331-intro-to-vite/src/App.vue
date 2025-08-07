@@ -11,7 +11,7 @@ const { message } = storeToRefs(store)
 
 <template>
   <div class="text-center font-sans text-gray-700 antialias">
-    <header>
+    <header class="leading-relaxed max-h-screen">
       <div id="flashMessage" v-if="message">
         <div id="flashMessage" v-if="message" class="animate-fade">
           <h4>{{ message }}</h4>
@@ -29,7 +29,7 @@ const { message } = storeToRefs(store)
 
     <!-- new element -->
     <div>
-      <h2>Set Page Size:</h2>
+      <h2 class="text-xl">Set Page Size:</h2>
       <button @click="pageSize = 1">1</button>
       <button @click="pageSize = 2">2</button>
       <button @click="pageSize = 3">3</button>
@@ -40,34 +40,5 @@ const { message } = storeToRefs(store)
 </template>
 
 <style>
-header {
-  line-height: 1.5;
-  max-height: 100vh;
-}
-
-nav {
-  padding: 30px;
-}
-
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-nav a.router-link-exact-active {
-  color: #42b983;
-}
-
-h2 {
-  font-size: 20px;
-}
-
-/* Removed old animation CSS since we're now using Tailwind's animate-fade class */
+/* All CSS has been converted to Tailwind classes */
 </style>
