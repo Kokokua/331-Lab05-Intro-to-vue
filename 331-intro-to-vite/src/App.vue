@@ -17,6 +17,7 @@ const { message } = storeToRefs(store)
           <h4>{{ message }}</h4>
         </div>
       </div>
+      <h1>Deploy with Vercel</h1>
       <div class="wrapper">
         <nav class="py-6">
           <RouterLink class="font-bold text-gray-700" exact-active-class="text-green-500" :to="{ name: 'event-list-view' }">Event</RouterLink> |
