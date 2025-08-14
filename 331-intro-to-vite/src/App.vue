@@ -3,6 +3,7 @@ import { RouterLink, RouterView } from 'vue-router'
 import { ref } from 'vue'
 import { useMessageStore } from '@/message'
 import { storeToRefs } from 'pinia'
+import { SpeedInsights } from '@vercel/speed-insights/vue'
 
 const pageSize = ref(1)
 const store = useMessageStore()
@@ -10,6 +11,7 @@ const { message } = storeToRefs(store)
 </script>
 
 <template>
+  <SpeedInsights />
   <div class="text-center font-sans text-gray-700 antialias">
     <header class="leading-relaxed max-h-screen">
       <div id="flashMessage" v-if="message">
